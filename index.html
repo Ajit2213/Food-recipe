@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <div class="name">
+                <h1>RECIPE APP</h1>
+            </div>
+            <div class="search">
+                <input type="text"  id="find" class="handle" placeholder="Search Food recipe">
+                <button id="just" class="handle">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="main_container">
+       
+
+        
+    </div>
+    <div class="recipe-details">
+        <button type="button" class="recipe-close-btn">
+            <i class="fa-solid fa-xmark" id="cancel"></i>
+        </button>
+        <div class="recipe-content">
+
+        </div>
+    </div>
+
+
+    <template class="printed">
+         <div class="card">
+         <div class="photo">
+            <img src="" alt="" class="fit">
+         </div>
+
+         <div class="content">
+             <h2 id="meal">Egg reciepe</h2>
+             <h4 id="tags"></h4>
+             <p id="category"></p>
+             
+            </div>
+
+            
+         
+         <button class="view">View Recipe</button>
+         </div>
+    </template>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+  
+
+   
+  
+</body>
+</html>
+
+
